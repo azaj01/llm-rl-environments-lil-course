@@ -17,13 +17,13 @@
 Run an evaluation with default settings:
 
 ```bash
-uv run vf-eval tictactoe
+prime eval run tictactoe
 ```
 
 Configure model and sampling:
 
 ```bash
-uv run vf-eval tictactoe   -m gpt-4.1-mini   -n 20 -r 3 -t 1024 -T 0.7   -a '{"min_random_move_prob": 0.0, "max_random_move_prob": 0.2}'
+prime eval run tictactoe   -m gpt-4.1-mini   -n 20 -r 3 -t 1024 -T 0.7   -a '{"min_random_move_prob": 0.0, "max_random_move_prob": 0.2}'
 ```
 
 Notes:
