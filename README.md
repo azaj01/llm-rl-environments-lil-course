@@ -15,7 +15,7 @@ In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2
 ## Chapters
 
 1. [Agents, Environments, and LLMs](chapters/01.md): mapping Reinforcement Learning concepts to the LLM domain.
-2. [Verifiers](chapters/02.md): an open source library to build RL environments as software artifacts.
+2. [Verifiers](chapters/02.md): an open-source library to build RL environments as software artifacts.
 3. [Developing a Tic Tac Toe environment with Verifiers](chapters/03.md)
 4. [Evaluating existing models with RL environments](chapters/04.md)
 5. [Training preparation and synthetic data generation for Supervised Fine-Tuning](chapters/05.md)
