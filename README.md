@@ -9,6 +9,8 @@ Unlike classic fine-tuning, RL environments let models explore and improve beyon
 In this course, we'll build a Tic Tac Toe environment and use it to transform a Small Language Model 
 (`LiquidAI/LFM2-2.6B`) into a master player that beats `gpt-5-mini`.
 
+➡️ **Start here:** [Chapter 1 - Agents, Environments, and LLMs](chapters/01.md)
+
 
 🤗🕹️ [Play against Mr. Tic Tac Toe](https://huggingface.co/spaces/anakin87/LFM2-2.6B-mr-tictactoe)
 
@@ -22,7 +24,7 @@ In this course, we'll build a Tic Tac Toe environment and use it to transform a 
 
 ## Chapters
 
-**Start here:** [Chapter 1 - Agents, Environments, and LLMs](chapters/01.md)
+➡️ **Start here:** [Chapter 1 - Agents, Environments, and LLMs](chapters/01.md)
 
 1. [Agents, Environments, and LLMs](chapters/01.md): mapping Reinforcement Learning concepts to the LLM domain.
 2. [Verifiers](chapters/02.md): an open-source library to build RL environments as software artifacts.
