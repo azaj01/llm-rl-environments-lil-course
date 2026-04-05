@@ -1,16 +1,24 @@
 # LLM RL Environments Lil Course
 
-<!--logo-->
+![LLM RL Environments Lil Course](./images/course_image.png)
 
 A little course on Reinforcement Learning Environments for evaluating and training Language Models.
 
-In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2-2.6B`) into a Tic Tac Toe master that beats `gpt-5-mini`.
+Unlike classic fine-tuning, RL environments let models explore and improve beyond what curated datasets can teach.
 
-<!--add more details? or a section: what will you learn/build?-->
+In this course, we'll build a Tic Tac Toe environment and use it to transform a Small Language Model 
+(`LiquidAI/LFM2-2.6B`) into a master player that beats `gpt-5-mini`.
+
 
 🤗🕹️ [Play against Mr. Tic Tac Toe](https://huggingface.co/spaces/anakin87/LFM2-2.6B-mr-tictactoe)
 
-<!--maybe a screenshot of the game or a short gif-->
+![Play against Mr. Tic Tac Toe](./images/mr_tictactoe.png)
+
+
+## Who is this course for?
+- **AI Engineers**: You are familiar with classic LLM fine-tuning techniques (Supervised Fine-Tuning) but have little to no experience with Reinforcement Learning.
+- **Traditional RL Practitioners**: You know how RL works, but you want to learn how to apply it to Language Models.
+- **Curious Tinkerers**: You keep hearing about "reasoning models" and RL post-training, and you want to see how it works under the hood.
 
 ## Chapters
 
@@ -24,11 +32,6 @@ In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2
 8. [Reinforcement Learning pt.2: towards Tic Tac Toe mastery](chapters/08.md)
 9. [What did not work: a Tic Tac Toe Post-Mortem from my failed experiments](chapters/09.md)
 10. [What we have learned and the future](chapters/10.md)
-
-## Who is this course for?
-- **AI Engineers**: You are familiar with classic LLM fine-tuning techniques (Supervised Fine-Tuning) but have little to no experience with Reinforcement Learning.
-- **Traditional RL Practitioners**: You know how RL works, but you want to learn how to apply it to Language Models.
-- **Curious Tinkerers**: You keep hearing about "reasoning models" and RL post-training, and you want to see how it works under the hood.
 
 
 ## Technologies
@@ -46,7 +49,7 @@ In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2
     <tr>
       <td align="center">
         <a href="https://github.com/PrimeIntellect-ai/verifiers">
-          <img src="logos/primeintellect.jpeg" width="50" alt="Prime Intellect Logo"><br>
+          <img src="images/logos/primeintellect.jpeg" width="50" alt="Prime Intellect Logo"><br>
           <b>Verifiers</b>
         </a>
       </td>
@@ -55,7 +58,7 @@ In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2
     <tr>
       <td align="center">
         <a href="https://huggingface.co/LiquidAI">
-          <img src="logos/liquid.png" width="50" alt="Liquid AI Logo"><br>
+          <img src="images/logos/liquid.png" width="50" alt="Liquid AI Logo"><br>
           <b>Liquid AI models</b>
         </a>
       </td>
@@ -64,7 +67,7 @@ In this course, we'll use RL to transform a Small Language Model (`LiquidAI/LFM2
     <tr>
       <td align="center">
         <a href="https://github.com/vllm-project/vllm">
-          <img src="logos/vllm.png" width="50" alt="vLLM Logo"><br>
+          <img src="images/logos/vllm.png" width="50" alt="vLLM Logo"><br>
           <b>vLLM</b>
         </a>
       </td>
@@ -79,7 +82,6 @@ Stefano Fiorucci/anakin87
 - AI orchestration by day
 - Small Language Models post-training, RL tinkering by night
 
-I developed this course based on things I learned over time through practical experience. 
-I don't claim perfect theoretical rigor or absolute efficiency. If you spot any errors in this course, please let me know by opening a GitHub issue.
+I built this course from hands-on experimentation. If you spot any errors, please open a GitHub issue.
 
-Feel free to follow me on [my social profiles](https://github.com/anakin87)
+Feel free to follow me on [my social profiles]: [GitHub](https://github.com/anakin87), [LinkedIn](https://www.linkedin.com/in/stefanofiorucci/), [X](https://x.com/theanakin87), [Hugging Face](https://huggingface.co/anakin87).
